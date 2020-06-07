@@ -1599,14 +1599,10 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-bootstrapp@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/bootstrapp/-/bootstrapp-0.0.0.tgz#5e2edd782ab7bc9addfadf412835e60c43221076"
-  integrity sha1-Xi7deCq3vJrd+t9BKDXmDEMiEHY=
-  dependencies:
-    erros "0.0.1"
-    express "^4.8.8"
-    middle-earth "0.0.6"
+bootstrap@^4.3.1:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.0.tgz#97d9dbcb5a8972f8722c9962483543b907d9b9ec"
+  integrity sha512-Z93QoXvodoVslA+PWNdk23Hze4RBYIkpb5h8I2HY2Tu2h7A0LpAgLcyrhrSUyo2/Oxm2l1fRZPs1e5hnxnliXA==
 
 brace-expansion@^1.1.7:
   version "1.1.11"
@@ -2954,13 +2950,6 @@ error-stack-parser@^2.0.0:
   dependencies:
     stackframe "^1.1.0"
 
-erros@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/erros/-/erros-0.0.1.tgz#f5de1b3d5e90088bff231a52241cedb04ed8ebcf"
-  integrity sha1-9d4bPV6QCIv/IxpSJBztsE7Y688=
-  dependencies:
-    express "^4.1.1"
-
 es-abstract@^1.12.0, es-abstract@^1.4.3, es-abstract@^1.5.1:
   version "1.14.2"
   resolved "https://registry.yarnpkg.com/es-abstract/-/es-abstract-1.14.2.tgz#7ce108fad83068c8783c3cdf62e504e084d8c497"
@@ -3293,7 +3282,7 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
-express@^4.0.0, express@^4.1.1, express@^4.16.3, express@^4.17.1, express@^4.8.8:
+express@^4.16.3, express@^4.17.1:
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
   integrity sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
@@ -5054,13 +5043,6 @@ micromatch@^3.1.10, micromatch@^3.1.4:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
-
-middle-earth@0.0.6:
-  version "0.0.6"
-  resolved "https://registry.yarnpkg.com/middle-earth/-/middle-earth-0.0.6.tgz#83551b62767e5c170d7c1139754685064008595b"
-  integrity sha1-g1UbYnZ+XBcNfBE5dUaFBkAIWVs=
-  dependencies:
-    express "^4.0.0"
 
 miller-rabin@^4.0.0:
   version "4.0.1"
@@ -8205,9 +8187,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^2.0.0:
   version "2.0.0"
